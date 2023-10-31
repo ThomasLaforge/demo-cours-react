@@ -2,6 +2,7 @@ import { useState } from 'react'
 import HelloWorld from './HelloWorld'
 import Counter from './Counter'
 import NameList from './NameList'
+import NameForm from './NameForm'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <HelloWorld />
       <Counter />
       <NameList />
+      <NameForm />
     </>
   )
 }
